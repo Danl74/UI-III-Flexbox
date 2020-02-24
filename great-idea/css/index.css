@@ -64,3 +64,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+* { 
+	box-sizing: border-box;
+ }
+ 
+ nav {
+   padding: 20px;
+   display: flex;
+   vertical-align: middle;
+ }
+ a {
+   display: flex;
+   margin: 0 auto;
+   color: grey;
+   text-align: center;
+   padding: 25px;
+ }
+ .container{
+	 display: flex;
+	 justify-content: center;
+ }
+
+ /*.tag{
+  text-align: center;
+ margin-left: 30px;
+ width: 50%;
+ }*/
+ 
+  
+
+ .intro {
+   font-size: 4em;
+ }
+ /*img{
+   ;
+ }*/
+ .button{
+   border: 1px solid black;
+   font-size: 2em;
+ }
+ .main-content1{
+   display: flex;
+	justify-content: space-around;
+  }
+ .header{
+   font-size: 1.5em;
+ }
+ /*.panel{
+   display: flex;
+ }*/
+ .para{
+	padding: 15px;
+	width: 48%;
+	margin: 1%;
+  }
+  .panel{
+	
+	width: 48%;
+	
+  }
+ .middle-img{
+   display: flex;
+   justify-content: center;
+   margin-left: 150px;
+ }
+ .maincontent2{
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+ }
+ .panel2{
+   display: flex;
+   width: 25%;
+ }
+ .footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   
+ }
+ .copy{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   /*margin: 550px;*/
+ }   
+ 
+
+ /* services */
+
+ .servicemidimg{
+   display: flex;
+   justify-content: center;
+ }
+ .serviceheader{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+
+ }
+ .sheader{
+   font-size: 1em;
+ }
+ .infop{
+   width: 40%;
+   padding: 10px;
+   margin: 0;
+ }
+ .contentbox{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .box{
+   height: 35%;
+   width: 40%;
+   border: 1px solid black;
+   padding: 5px;
+   margin: 10px;
+
+ }
+
+ .button2{
+   border: 1px solid grey;
+   margin: 10px;
+ }
+ .facts{
+   display: flex;
+   justify-content: space-evenly;
+
+ }
+ .list{
+   width: 48%;
+   padding: 10px;
+   
+ }
+li {list-style-type:square;}
+
+ .services-info-img{
+   width: 50%;
+   padding: 10px;
+ }
